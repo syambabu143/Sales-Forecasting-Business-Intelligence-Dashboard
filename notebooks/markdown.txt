@@ -1,0 +1,17 @@
+## Data Cleaning and Integration
+
+The Walmart sales dataset was integrated using three source files:
+train.csv, features.csv, and stores.csv.
+
+The datasets were merged using Store and Date as keys.
+
+The following preprocessing steps were performed:
+
+- Converted Date columns to datetime format
+- Merged sales data with external features
+- Merged store information
+- Handled missing markdown values
+- Filled missing CPI and Unemployment values using store-level forward/backward filling
+- Created Year, Month, Quarter, and Week features
+- Checked duplicate records
+- Saved the processed dataset for further analysis

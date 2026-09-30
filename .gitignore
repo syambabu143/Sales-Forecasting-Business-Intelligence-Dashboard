@@ -1,0 +1,22 @@
+# Virtual environment
+sales_forecasting_env/
+venv/
+.env/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# IDE files
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
